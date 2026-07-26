@@ -1,1 +1,19 @@
-print("Test")
+{
+  "description": "Synonyme für ökonomische Begriffe",
+  "version": "1.0",
+  "synonyms": [
+    {
+      "id": 1,
+      "term": "Kausalität",
+      "synonyms": ["Ursache-Wirkung", "Verursachung", "Determinismus"],
+      "category": "Ökonomie"
+    },
+    {
+      "id": 2,
+      "term": "Daten",
+      "synonyms": ["Informationen", "Datensätze", "Records"],
+      "category": "Allgemein"
+    }
+  ],
+  "notes": "Sammlung von wirtschaftlichen Synonymen für Datenbank"
+}
