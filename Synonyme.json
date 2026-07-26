@@ -1,19 +1,187 @@
 {
-  "description": "Synonyme für ökonomische Begriffe",
-  "version": "1.0",
-  "synonyms": [
-    {
-      "id": 1,
-      "term": "Kausalität",
-      "synonyms": ["Ursache-Wirkung", "Verursachung", "Determinismus"],
-      "category": "Ökonomie"
-    },
-    {
-      "id": 2,
-      "term": "Daten",
-      "synonyms": ["Informationen", "Datensätze", "Records"],
-      "category": "Allgemein"
-    }
-  ],
-  "notes": "Sammlung von wirtschaftlichen Synonymen für Datenbank"
+  "K0001": {
+    "anzeigename": "Unternehmensteuersenkung",
+    "synonyme": [
+      "Unternehmensteuersenkung",
+      "Steuersenkung für Unternehmen",
+      "Senkung der Unternehmensteuer",
+      "Körperschaftsteuersenkung",
+      "niedrigere Körperschaftsteuer",
+      "niedrigere Unternehmenssteuer",
+      "Corporate Tax Cut",
+      "Corporate Tax Reduction"
+    ]
+  },
+  "K0002": {
+    "anzeigename": "Nachsteuergewinn",
+    "synonyme": [
+      "Nachsteuergewinn",
+      "Gewinn nach Steuern",
+      "Nettogewinn",
+      "Profit nach Steuern",
+      "Unternehmensgewinn",
+      "Gewinn",
+      "Profit"
+    ]
+  },
+  "K0003": {
+    "anzeigename": "Investitionen",
+    "synonyme": [
+      "Investitionen",
+      "Investition",
+      "Unternehmensinvestitionen",
+      "Kapitalinvestitionen",
+      "Sachinvestitionen",
+      "Bruttoinvestitionen",
+      "Anlageinvestitionen",
+      "Investitionstätigkeit",
+      "Kapitalbildung"
+    ]
+  },
+  "K0004": {
+    "anzeigename": "Kapitalstock",
+    "synonyme": [
+      "Kapitalstock",
+      "Produktionskapital",
+      "Kapitalbasis",
+      "Anlagevermögen",
+      "Maschinenpark",
+      "Produktionsanlagen"
+    ]
+  },
+  "K0005": {
+    "anzeigename": "Arbeitsproduktivität",
+    "synonyme": [
+      "Arbeitsproduktivität",
+      "Produktivität",
+      "Output je Beschäftigten",
+      "Output pro Arbeitnehmer",
+      "Arbeitsleistung",
+      "Produktivität der Arbeit"
+    ]
+  },
+  "K0006": {
+    "anzeigename": "Reales Bruttoinlandsprodukt",
+    "synonyme": [
+      "Reales BIP",
+      "Bruttoinlandsprodukt",
+      "BIP",
+      "Wirtschaftsleistung",
+      "Output",
+      "Produktion",
+      "Gesamtproduktion",
+      "reale Wirtschaftsleistung",
+      "volkswirtschaftliche Produktion"
+    ]
+  },
+  "K0007": {
+    "anzeigename": "Beschäftigung",
+    "synonyme": [
+      "Beschäftigung",
+      "Arbeitsplätze",
+      "Erwerbstätigkeit",
+      "Beschäftigtenzahl",
+      "Jobs",
+      "Beschäftigungsniveau"
+    ]
+  },
+  "K0008": {
+    "anzeigename": "Arbeitslosigkeit",
+    "synonyme": [
+      "Arbeitslosigkeit",
+      "Arbeitslosenquote",
+      "Erwerbslosigkeit",
+      "Joblosigkeit",
+      "Anteil Arbeitsloser"
+    ]
+  },
+  "K0009": {
+    "anzeigename": "Privater Konsum",
+    "synonyme": [
+      "Konsum",
+      "Privater Konsum",
+      "Konsumausgaben",
+      "Verbrauch",
+      "Haushaltskonsum",
+      "Konsumnachfrage"
+    ]
+  },
+  "K0010": {
+    "anzeigename": "Gesamtnachfrage",
+    "synonyme": [
+      "Gesamtnachfrage",
+      "Aggregierte Nachfrage",
+      "Aggregate Demand",
+      "AD",
+      "gesamtwirtschaftliche Nachfrage",
+      "Nachfrage",
+      "Nachfragevolumen",
+      "Binnennachfrage",
+      "Konjunktur",
+      "Konjunkturlage"
+    ]
+  },
+  "K0011": {
+    "anzeigename": "Inflation",
+    "synonyme": [
+      "Inflation",
+      "Inflationsrate",
+      "Preissteigerung",
+      "Teuerung",
+      "allgemeiner Preisanstieg",
+      "Preisniveauanstieg"
+    ]
+  },
+  "K0012": {
+    "anzeigename": "Leitzins",
+    "synonyme": [
+      "Leitzins",
+      "Zentralbankzins",
+      "EZB-Leitzins",
+      "Notenbankzins",
+      "Policy Rate",
+      "offizieller Zinssatz"
+    ]
+  },
+  "K0013": {
+    "anzeigename": "Marktzins",
+    "synonyme": [
+      "Marktzins",
+      "Kreditzins",
+      "Kapitalmarktzins",
+      "Finanzierungszins",
+      "Zinsniveau",
+      "Realzins"
+    ]
+  },
+  "K0014": {
+    "anzeigename": "Staatsausgaben",
+    "synonyme": [
+      "Staatsausgaben",
+      "Staatskonsum",
+      "öffentliche Ausgaben",
+      "Regierungsausgaben",
+      "Government Spending",
+      "Staatsnachfrage"
+    ]
+  },
+  "K0015": {
+    "anzeigename": "Exporte",
+    "synonyme": [
+      "Exporte",
+      "Ausfuhren",
+      "Exporte",
+      "Warenausfuhren",
+      "Dienstleistungsexporte"
+    ]
+  },
+  "K0016": {
+    "anzeigename": "Importe",
+    "synonyme": [
+      "Importe",
+      "Einfuhren",
+      "Wareneinfuhren",
+      "Dienstleistungsimporte"
+    ]
+  }
 }
