@@ -1,0 +1,19 @@
+{
+  "description": "Test data for causal relationships",
+  "version": "1.0",
+  "data": [
+    {
+      "id": 1,
+      "name": "Example Entry",
+      "value": "Sample Value",
+      "timestamp": "2026-07-26T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Another Entry",
+      "value": "Another Sample",
+      "timestamp": "2026-07-26T01:00:00Z"
+    }
+  ],
+  "notes": "This is a test file"
+}
