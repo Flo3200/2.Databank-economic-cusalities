@@ -1,19 +1,122 @@
-{
-  "description": "Test data for causal relationships",
-  "version": "1.0",
-  "data": [
-    {
-      "id": 1,
-      "name": "Example Entry",
-      "value": "Sample Value",
-      "timestamp": "2026-07-26T00:00:00Z"
-    },
-    {
-      "id": 2,
-      "name": "Another Entry",
-      "value": "Another Sample",
-      "timestamp": "2026-07-26T01:00:00Z"
-    }
-  ],
-  "notes": "This is a test file"
-}
+[
+  {
+    "ursache_id": "K0001",
+    "wirkung_id": "K0002",
+    "staerke": 0.95,
+    "vorzeichen": "+",
+    "mechanismus": "Eine niedrigere Unternehmensbesteuerung erhöht bei unverändertem Vorsteuergewinn den Gewinn nach Steuern.",
+    "quelle": "Mankiw & Taylor"
+  },
+  {
+    "ursache_id": "K0002",
+    "wirkung_id": "K0003",
+    "staerke": 0.65,
+    "vorzeichen": "+",
+    "mechanismus": "Höhere einbehaltene Gewinne erleichtern die Innenfinanzierung von Investitionen.",
+    "quelle": "Jorgenson (1963)"
+  },
+  {
+    "ursache_id": "K0003",
+    "wirkung_id": "K0004",
+    "staerke": 0.95,
+    "vorzeichen": "+",
+    "mechanismus": "Investitionen erhöhen den Kapitalstock.",
+    "quelle": "Solow (1956)"
+  },
+  {
+    "ursache_id": "K0004",
+    "wirkung_id": "K0005",
+    "staerke": 0.85,
+    "vorzeichen": "+",
+    "mechanismus": "Mehr Kapital je Arbeitnehmer erhöht die Arbeitsproduktivität.",
+    "quelle": "Solow (1956)"
+  },
+  {
+    "ursache_id": "K0005",
+    "wirkung_id": "K0006",
+    "staerke": 0.90,
+    "vorzeichen": "+",
+    "mechanismus": "Eine höhere Produktivität erhöht den realen Output einer Volkswirtschaft.",
+    "quelle": "Solow (1956)"
+  },
+  {
+    "ursache_id": "K0006",
+    "wirkung_id": "K0007",
+    "staerke": 0.65,
+    "vorzeichen": "+",
+    "mechanismus": "Eine höhere Produktion erhöht die Nachfrage nach Arbeitskräften.",
+    "quelle": "Blanchard"
+  },
+  {
+    "ursache_id": "K0007",
+    "wirkung_id": "K0008",
+    "staerke": 0.95,
+    "vorzeichen": "-",
+    "mechanismus": "Mehr Beschäftigung bedeutet weniger Arbeitslosigkeit.",
+    "quelle": "Mankiw"
+  },
+  {
+    "ursache_id": "K0009",
+    "wirkung_id": "K0010",
+    "staerke": 0.95,
+    "vorzeichen": "+",
+    "mechanismus": "Der private Konsum ist Bestandteil der aggregierten Nachfrage.",
+    "quelle": "Keynes"
+  },
+  {
+    "ursache_id": "K0014",
+    "wirkung_id": "K0010",
+    "staerke": 0.95,
+    "vorzeichen": "+",
+    "mechanismus": "Staatsausgaben sind Bestandteil der aggregierten Nachfrage.",
+    "quelle": "Keynes"
+  },
+  {
+    "ursache_id": "K0015",
+    "wirkung_id": "K0010",
+    "staerke": 0.95,
+    "vorzeichen": "+",
+    "mechanismus": "Steigende Exporte erhöhen die aggregierte Nachfrage.",
+    "quelle": "Volkswirtschaftliche Gesamtrechnungen"
+  },
+  {
+    "ursache_id": "K0016",
+    "wirkung_id": "K0010",
+    "staerke": 0.95,
+    "vorzeichen": "-",
+    "mechanismus": "Steigende Importe verringern die aggregierte Nachfrage im BIP gemäß Y=C+I+G+X−M.",
+    "quelle": "Volkswirtschaftliche Gesamtrechnungen"
+  },
+  {
+    "ursache_id": "K0010",
+    "wirkung_id": "K0006",
+    "staerke": 0.75,
+    "vorzeichen": "+",
+    "mechanismus": "Eine höhere aggregierte Nachfrage erhöht kurzfristig Produktion und Einkommen.",
+    "quelle": "Keynes; Blanchard"
+  },
+  {
+    "ursache_id": "K0010",
+    "wirkung_id": "K0011",
+    "staerke": 0.55,
+    "vorzeichen": "+",
+    "mechanismus": "Liegt die Nachfrage über dem Produktionspotenzial, entsteht Aufwärtsdruck auf das Preisniveau.",
+    "quelle": "New Keynesian Economics"
+  },
+  {
+    "ursache_id": "K0012",
+    "wirkung_id": "K0013",
+    "staerke": 0.90,
+    "vorzeichen": "+",
+    "mechanismus": "Der Leitzins beeinflusst die kurzfristigen Marktzinsen.",
+    "quelle": "Mishkin"
+  },
+  {
+    "ursache_id": "K0013",
+    "wirkung_id": "K0003",
+    "staerke": 0.65,
+    "vorzeichen": "-",
+    "mechanismus": "Höhere Finanzierungskosten senken die Investitionsnachfrage.",
+    "quelle": "Jorgenson (1963)"
+  }
+]
